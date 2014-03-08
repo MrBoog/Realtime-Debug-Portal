@@ -444,7 +444,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/libRDP.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libRDP/libRDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "Realtime Debug Protal/Realtime Debug Protal-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -456,7 +456,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/libRDP.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libRDP/libRDP-Prefix.pch";
+				GCC_PREFIX_HEADER = "Realtime Debug Protal/Realtime Debug Protal-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
