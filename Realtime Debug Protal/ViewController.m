@@ -27,9 +27,13 @@
     btn.backgroundColor = [UIColor redColor];
     [self.view addSubview:btn];
     
-    if (self.navigationController.viewControllers.count == 1) {
+//    if (self.navigationController.viewControllers.count == 1) {
+//        [RDP startServer];
+//    }
+    
+    
         [RDP startServer];
-    }
+    
     
     NSMutableArray *list = [[NSMutableArray alloc]init];
     while(list.count < 10000){
